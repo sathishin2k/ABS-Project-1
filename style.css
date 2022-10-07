@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{position: absolute;
+    margin-top: -330px;
+margin-left: 50px;}
+
+
+.desc{
+    margin-top: -230px;
+   text-align: center;
+   font-size:30px;
+   color: white;
+}
+
+.ex{margin-top: 30px;
+text-align: center;
+font-size: 22px;
+font-family:Arial, Helvetica, sans-serif;
+color: gray;
+}
+
+.fin{
+    text-align: center;
+    position: relative;
+
+top: 200px;
+}
+
+.findesc{
+    position: relative;
+    text-align: center; 
+    font-family:Arial, Helvetica, sans-serif;
+color: gray;
+top: 215px;
+font-size: 20px;
+}
+
+.fin1{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.findesc1{
+    position: relative;
+    text-align: center; 
+    font-family:Arial, Helvetica, sans-serif;
+color: gray;
+top: 25px;
+font-size: 20px;
+}
+
+
+.container{
+    padding: 230px;
+    display: grid;
+    position: relative;
+    top: -10px;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    align-content: center;
+}
+
+.item{
+    height: 100px;
+    width: 340px;
+     background:#F7F7F9;
+     margin-top: 0.5cm;
+     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+     border-radius: 20px;
+     border: 1px solid rgba( 255, 255, 255, 0.18 );
+     display: flex;
+    }
+
+.logo1{
+position: relative;
+top:20px;
+left: 10px;
+}
+
+h3{
+    position: relative;
+   top:10px;
+    left:35px;  
+}
+
+.p1{
+    position: relative;
+    left: 35px;
+    top:20px;
+    
+}
+
+.container1{
+padding: 230px;
+display: grid;
+position: relative;
+top: -170px;
+grid-template-columns: auto auto auto;
+gap: 50px;
+align-content: center;}
